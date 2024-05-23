@@ -1,0 +1,23 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OLEHFIDELIS/nodejs-registerForm.git"
+  },
+  "author": "Oleh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OLEHFIDELIS/nodejs-registerForm/issues"
+  },
+  "homepage": "https://github.com/OLEHFIDELIS/nodejs-registerForm#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
