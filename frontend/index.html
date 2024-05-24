@@ -12,27 +12,29 @@
 <body>
     <div class="main">
         <div class="first">
-            <form action="" method="post">
-                <h1>CONTACT FORM</h1>
+            <form action="http://localhost:4000" method="post">
+                <h1>Register FORM</h1>
                 <h4>PLEASE FILL ALL THE ENTRIES.</h4>
 
-                <label>NAME:</label>
-                <input name="dname" placeholder="your-name" type="text">
+                <label for="name">First Name</label>
+                <input name="firstName" placeholder="firstname" type="text">
 
-                <label for="NAME">EMAIL:</label>
-                <input name="demail" placeholder="your-email" type="text">
+                <label for="name">Last Name</label>
+                <input name="lastName" placeholder="lasttname" type="text">
 
-                <label>MASSAGE:</label>
-                <textarea name="dmsg" placeholder="massage"></textarea>
-                <input name="dsubmit" type="submit" value=" SEND">
+                <label for="email">EMAIL:</label>
+                <input name="email" placeholder="email" type="text">
+
+                <label for="password">password:</label>
+                <input name="password" type="password" placeholder="enter password">
+                <input id="submit"  type="submit" value=" SEND">
 
             </form>
-
 
         </div>
 
     </div>
-
+<script src="index.js"></script>
 </body>
 
 </html>
