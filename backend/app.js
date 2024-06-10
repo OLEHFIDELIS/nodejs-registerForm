@@ -1,9 +1,11 @@
 const express = require("express");
 const cors    = require("cors");
+const ejs  = require("ejs")
 const fs = require("fs")
 const validator = require("email-validator");
 const app = express();
 
+app.set("view engine", "ejs")
 const url = "http://127.0.0.1:5500/frontend/index.html";
 
 app.use(express.urlencoded({ extended: true }));
