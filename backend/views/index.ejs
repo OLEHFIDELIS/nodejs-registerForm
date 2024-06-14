@@ -18,13 +18,13 @@
 		<div class="container">
 
 			<% if(error && error.length > 0) { %>
-			  <div class="alert alert-danger" role="alert">
+			  <div class="alert alert-danger text-center" role="alert">
 				<%= error %>
 			  </div>
 			<% } %>
 		  
 			<% if(success && success.length > 0) { %>
-			  <div class="alert alert-success" role="alert">
+			  <div class="alert alert-success text-center" role="alert">
 				<%= success %>
 			  </div>
 			<% } %>
@@ -33,7 +33,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-		      	<h3 class="mb-4 text-center">Have an account?</h3>
+		      	<h3 class="mb-4 text-center">Enter your details </h3>
 		      	<form action="/" method="post" class="signin-form">
 		      		<div class="form-group">
 		      			<input type="text" class="form-control" name="firstName" placeholder="FirstName" required>
